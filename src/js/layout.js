@@ -13,7 +13,7 @@ import { PlanetsPage } from "./views/planetsPage";
 import { VehiclesList } from "./views/vehiclesList";
 import { VehiclesPage } from "./views/vehiclesPage";
 
-// import { Navbar } from "./component/navbar";
+import { Navbar } from "./component/navbar";
 // import { Footer } from "./component/footer";
 
 //create your first component

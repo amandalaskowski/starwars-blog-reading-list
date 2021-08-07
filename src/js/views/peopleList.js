@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
-import { PeopleCard } from "../component/peopleCard";
+import { PeopleCard } from "../component/peoplecard";
 import { Context } from "../store/appContext";
 import { Navbar } from "../component/navbar";
 
@@ -16,7 +16,6 @@ export function PeopleList() {
 
 	return (
 		<container className="container">
-			<Navbar />
 			<h1 className="peopletitle">People</h1>
 
 			{people.map((person, index) => {

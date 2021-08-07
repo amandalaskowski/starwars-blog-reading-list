@@ -1,16 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { PeopleCard } from "./peoplecard";
 
 export function PeopleCardFull(props) {
 	return (
 		<div>
-			<p>{props.name}</p>
-			<p>{props.height}</p>
+			<li>{props.name}</li>
+			<li>{props.height}</li>
+			<li>{props.gender}</li>
 		</div>
 	);
 }
 
 PeopleCardFull.propTypes = {
+	name: PropTypes.string,
 	uid: PropTypes.string,
 	height: PropTypes.string,
 	mass: PropTypes.string,
@@ -19,6 +22,5 @@ PeopleCardFull.propTypes = {
 	eye_color: PropTypes.string,
 	birth_year: PropTypes.number,
 	gender: PropTypes.string,
-	description: PropTypes.string,
-	name: PropTypes.string
+	description: PropTypes.string
 };

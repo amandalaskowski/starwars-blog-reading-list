@@ -49,7 +49,9 @@ export function PeopleCard(props) {
 					</p>
 
 					<p className="card-text">
-						<a href={"/people/" + props.uid}>Learn more about {props.name}</a>
+						<a className="learnmore" href={"/people/" + props.uid}>
+							Learn more about {props.name}
+						</a>
 					</p>
 				</div>
 			</div>

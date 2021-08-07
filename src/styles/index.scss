@@ -39,12 +39,12 @@ body{
 }
 
 .card{
-    background-color: lightgrey;
+    background-color: grey;
     font-family: 'Libre Baskerville', serif;
 }
 
 .individualcard{
-    background: lightgrey;
+    background: grey;
     width: 450px;
     height: 100%;
     display: inline-block;
@@ -87,4 +87,50 @@ body{
      text-size-adjust: larger;
      font-family: 'Libre Baskerville', serif;
 }
+
+.homecontainer{
+    background-color: none;
+    width: 80%;
+    height: 550px;
+    display: inline-block;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+}
+
+
+
+.homedivs{
+   background-color: black;
+    width: 345px;
+    height: 100%;
+    display: inline-block;
+    border-style: solid;
+    border-color: grey;
+    border-width: 10px 10px 10px 10px;
+    border-radius: 25px;
+    
+}
+
+.homeimage{
+      width: 325px;
+    height: 95%;
+   border-radius: 15px;
+   border-top: none;
+   margin-top: 5px;
+}
+
+.picturetitle{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    
+}
+
+.learnmore{
+    color: darkblue;
+}
+
+
 

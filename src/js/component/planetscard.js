@@ -7,7 +7,7 @@ export function PlanetsCard(props) {
 	const [favorites, setFavorites] = React.useContext(FavoritesContext);
 
 	React.useEffect(() => {
-		fetch("https://www.swapi.tech/api/planets" + props.uid)
+		fetch("https://www.swapi.tech/api/planets/" + props.uid)
 			.then(res => res.json())
 			.then(data => setPlanetsPage(data.result))
 			.catch(err => console.error(err));

@@ -42,7 +42,7 @@ export function VehiclesCard(props) {
 					</h5>
 					<p className="card-text">
 						<ul>
-							{vehiclesPage !== null && <li>Length: {vehiclesPage.properties.model}</li>}
+							{vehiclesPage !== null && <li>Model: {vehiclesPage.properties.model}</li>}
 							{vehiclesPage !== null && <li>Crew: {vehiclesPage.properties.crew}</li>}
 							{vehiclesPage !== null && (
 								<li>Max Atmosphering Speed: {vehiclesPage.properties.max_atmosphering_speed}</li>

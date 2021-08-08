@@ -29,7 +29,7 @@ export function VehiclesCardFull(props) {
 	);
 }
 
-VehiclesCard.propTypes = {
+VehiclesCardFull.propTypes = {
 	name: PropTypes.string,
 	uid: PropTypes.string,
 	manufacturer: PropTypes.string,

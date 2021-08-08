@@ -88,6 +88,10 @@ body{
      font-family: 'Libre Baskerville', serif;
 }
 
+.favoritesbutton{
+    color: #e75480;
+}
+
 .homecontainer{
     background-color: none;
     width: 80%;
@@ -131,6 +135,44 @@ body{
 .learnmore{
     color: darkblue;
 }
+
+.dropdown_button{
+    border-radius: 5px;
+    width: 117px;
+    height: 40px;
+    border: none;
+    font-family: 'Libre Baskerville', serif;
+    margin-right: 50px;
+   
+}
+
+
+
+.downbutton{
+    color: #e75480;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+
+.dropdown_menu{
+    width: 117px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.dropdown-item{
+    display: inline-block;
+}
+
+
+
+
+
+
 
 
 

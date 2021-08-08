@@ -31,11 +31,11 @@ export function PeopleCard(props) {
 					<h5 className="card-title">
 						{props.name}
 						{!favorites.includes(props.name) ? (
-							<button className="btn btn-outline-danger" onClick={handleClickFavorite}>
+							<button className="btn btn-outline-danger favoritesbutton" onClick={handleClickFavorite}>
 								❤️
 							</button>
 						) : (
-							<button className="btn btn-danger" onClick={handleClickUnFavorite}>
+							<button className="btn btn-danger favoritesbutton" onClick={handleClickUnFavorite}>
 								❤️
 							</button>
 						)}

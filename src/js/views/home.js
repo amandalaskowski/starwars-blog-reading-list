@@ -27,7 +27,7 @@ export const Home = () => (
 			</div>
 
 			<div className="homedivs">
-				<div className="picturetitle">Vehicles</div>
+				<div className="picturetitle">Planets</div>
 				<a href="/planets">
 					<img className="homeimage" src="https://wallpaperaccess.com/full/2418848.jpg" />
 				</a>

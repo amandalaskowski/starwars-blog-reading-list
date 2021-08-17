@@ -50,8 +50,8 @@ const Layout = () => {
 							<Route exact path="/planets/:id">
 								<PlanetsPage />
 							</Route>
-							<Route>
-								<h1>Not found!</h1>
+							<Route exact path="/">
+								<Home />
 							</Route>
 						</Switch>
 					</ScrollToTop>
